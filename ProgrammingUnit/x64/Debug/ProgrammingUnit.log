@@ -1,9 +1,0 @@
-﻿  stdafx.cpp
-  ProgrammingUnit.cpp
-f:\project\c++\kontrolna\programmingunit\programmingunit\fileservice.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  Logger.cpp
-  FileService.cpp
-f:\project\c++\kontrolna\programmingunit\programmingunit\fileservice.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  Generating Code...
-  ProgrammingUnit.vcxproj -> F:\project\C++\Kontrolna\ProgrammingUnit\x64\Debug\ProgrammingUnit.exe
-  ProgrammingUnit.vcxproj -> F:\project\C++\Kontrolna\ProgrammingUnit\x64\Debug\ProgrammingUnit.pdb (Full PDB)
