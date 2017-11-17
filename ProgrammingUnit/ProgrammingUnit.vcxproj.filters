@@ -39,6 +39,12 @@
     <ClInclude Include="CustomExceptions.h">
       <Filter>Source Files\headers</Filter>
     </ClInclude>
+    <ClInclude Include="Furniture.h">
+      <Filter>Source Files\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>Source Files\headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -54,6 +60,12 @@
       <Filter>Source Files\src</Filter>
     </ClCompile>
     <ClCompile Include="NotFoundException.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Furniture.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
   </ItemGroup>

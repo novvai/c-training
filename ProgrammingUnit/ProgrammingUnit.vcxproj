@@ -147,12 +147,15 @@
   <ItemGroup>
     <ClInclude Include="CustomExceptions.h" />
     <ClInclude Include="FileService.h" />
+    <ClInclude Include="Furniture.h" />
     <ClInclude Include="Logger.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Table.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FileService.cpp" />
+    <ClCompile Include="Furniture.cpp" />
     <ClCompile Include="Logger.cpp" />
     <ClCompile Include="NotFoundException.cpp" />
     <ClCompile Include="ProgrammingUnit.cpp" />
@@ -162,6 +165,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Table.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

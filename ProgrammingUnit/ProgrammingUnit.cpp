@@ -3,15 +3,13 @@
 
 #include "stdafx.h"
 #include "fileservice.h"
-
-
+#include "table.h"
+#include "iostream"
 
 int main()
 {
-	FileService* reserve = new FileService("zaqvki.txt");
-
-	reserve->read();
-	
+	Table t = Table("da", 4.5);
+	std::cout<<t.calculatePrice(3);
 	return 0;
 }
 
