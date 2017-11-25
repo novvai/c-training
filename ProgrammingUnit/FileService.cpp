@@ -53,27 +53,3 @@ void FileService::checkExistance() {
 	}
 	closeFile();
 }
-
-/*
- * Read from the File and log it to the console
- */
-void FileService::read() {
-	openFile();
-	std::string fileLine;
-	while (!file.eof()) {
-		getline(file, fileLine);
-		std::cout << fileLine.c_str() << std::endl;
-	}
-	closeFile();
-}
-
-/*
- * Write a line to the file
- */
-void FileService::write(const char* line) {
-	openFile();
-	
-	file << std::endl << line;
-
-	closeFile();
-}

@@ -9,7 +9,7 @@ class Table : public Furniture
 public:
 	Table(string name, float price);
 
-	int calculatePrice(int quantity);
+	float calculatePrice(int quantity);
 
 private:
 

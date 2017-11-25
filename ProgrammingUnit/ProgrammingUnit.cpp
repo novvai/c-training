@@ -5,11 +5,14 @@
 #include "fileservice.h"
 #include "table.h"
 #include "iostream"
+#include "authenticator.h"
+#include "singlelinereader.h"
 
 int main()
 {
+	Authenticator a = Authenticator(new SingleLineReader("zaqvki"));
+	
 	Table t = Table("da", 4.5);
-	std::cout<<t.calculatePrice(3);
 	return 0;
 }
 

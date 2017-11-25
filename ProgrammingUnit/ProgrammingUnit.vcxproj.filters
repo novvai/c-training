@@ -19,6 +19,18 @@
     <Filter Include="Source Files\src">
       <UniqueIdentifier>{7def897a-1efd-47c4-b1ee-45f99c3af8f7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\headers\Authentication">
+      <UniqueIdentifier>{e4268deb-6529-4b1c-8095-2b9df8e8bd69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Authentication">
+      <UniqueIdentifier>{8aea7c6c-0bba-4f2d-9d3e-5b774b46ac1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\headers\Data">
+      <UniqueIdentifier>{8eabc5f6-1590-4839-9a86-164a9cbd35e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Data">
+      <UniqueIdentifier>{cd0934b8-ffc1-4e88-82b5-9dfac1c5a1f5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -33,9 +45,6 @@
     <ClInclude Include="Logger.h">
       <Filter>Source Files\headers</Filter>
     </ClInclude>
-    <ClInclude Include="FileService.h">
-      <Filter>Source Files\headers</Filter>
-    </ClInclude>
     <ClInclude Include="CustomExceptions.h">
       <Filter>Source Files\headers</Filter>
     </ClInclude>
@@ -44,6 +53,18 @@
     </ClInclude>
     <ClInclude Include="Table.h">
       <Filter>Source Files\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Source Files\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Authenticator.h">
+      <Filter>Source Files\headers\Authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="FileService.h">
+      <Filter>Source Files\headers\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleLineReader.h">
+      <Filter>Source Files\headers\Data</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -56,9 +77,6 @@
     <ClCompile Include="Logger.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
-    <ClCompile Include="FileService.cpp">
-      <Filter>Source Files\src</Filter>
-    </ClCompile>
     <ClCompile Include="NotFoundException.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
@@ -67,6 +85,18 @@
     </ClCompile>
     <ClCompile Include="Table.cpp">
       <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Authenticator.cpp">
+      <Filter>Source Files\src\Authentication</Filter>
+    </ClCompile>
+    <ClCompile Include="FileService.cpp">
+      <Filter>Source Files\src\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleLineReader.cpp">
+      <Filter>Source Files\src\Data</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

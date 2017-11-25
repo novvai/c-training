@@ -6,7 +6,7 @@
 
 class FileService
 {
-private:
+protected:
 	std::fstream file;
 	const std::string defaultFilePath = "bin\\";
 	const char* defaultSeparator = "\tab";
@@ -14,9 +14,9 @@ private:
 public:
 	FileService(const char* name);
 	~FileService();
-	void write(const char* line);
-	void read();
-private:
+	void virtual write(const char* line) = 0;
+	void virtual read() = 0;
+protected:
 	void openFile();
 	void closeFile();
 	void checkExistance();
